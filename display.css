@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+
+
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.head{
+    grid-column:span 2;
+    text-align: center;
+    border-bottom:3px solid black ;
+}
+
+.side-form-con{
+    border-right:3px solid black  ;
+    height: 80vh;
+    text-align: center;
+    
+}
+
+.submit-btn {
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.507);
+    border:1px solid black ;
+}
+
+.form{
+
+}
+
+.form-option {
+    padding-bottom: 2vh;
+}
+
+
+
